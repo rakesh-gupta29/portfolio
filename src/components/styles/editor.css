@@ -1,0 +1,18 @@
+.editor-content-wrapper .ql-editor {
+    font-family: var(--font-family-secondary);
+    font-size: 18px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    padding: 4px;
+    color:var(--color-dark) ;
+}
+
+.ql-snow {
+    border: none ! important;
+}
+.editor-content-wrapper .code-wrapper{
+    white-space: nowrap !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: monospace !important;
+}

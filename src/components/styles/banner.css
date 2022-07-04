@@ -1,0 +1,26 @@
+
+.banner-master {
+    height: calc(100vh - 80px);
+    padding-top: 100px;
+}
+.banner-master .banner-master-text {
+    width: min(100%,650px);
+    height: 140px;
+    overflow: hidden;
+ }
+ .banner-master .banner-master-text img {
+    animation: appearFromBottom 0.8s;
+    transform: translateY(0);
+    
+ }
+.banner-btn img {
+    transition:  transform 0.2s;
+}
+.banner-btn:hover img {
+    transform: rotate(90deg);
+}
+@keyframes appearFromBottom{
+    from{
+        transform: translateY(100%);
+    }
+}

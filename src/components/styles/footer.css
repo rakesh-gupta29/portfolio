@@ -1,0 +1,11 @@
+footer {
+    margin-top: 45px;
+}
+
+.footer-navigate-btn{
+    min-height: 60px;
+    min-width: 60px;
+    max-height: 60px;
+    max-width: 60px;
+    transform: translateY(-40px);
+}

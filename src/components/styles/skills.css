@@ -1,0 +1,69 @@
+/* skills-indicator-master .progress-items {
+    width: 100%;
+}
+
+.skills-indicator-master .progress-bar {
+    height: 17px;
+    width: min(88%, 450px);
+    outline-offset: 2px;
+    outline: 1.5px solid var(--color-primary);
+} */
+
+/* .progress-items .html-bar {
+    width: 70%;
+}
+
+.progress-items .js-bar {
+    width: 65%;
+}
+
+.progress-items .react-bar {
+    width: 60%;
+}
+
+.progress-items .backend-bar {
+    width: 45%;
+}
+
+.progress-items .ui-tools-bar {
+    width: 40%;
+}
+ */
+/* .pill {
+    border-radius: 45px;
+}
+
+
+
+
+.skills-indicator-master .progress-bar {
+    height: 17px;
+    width: min(88%, 450px);
+    outline-offset: 2px;
+    outline: 1.5px solid  red ;
+} */
+
+.skills-master {
+    min-height: 90vh;
+    
+}
+.skills-bars-wrapper{
+    flex: 0 1 450px;
+}
+
+.skills-data-wrapper {
+    flex: 0 1 500px;
+}
+.progress-bar {
+    border-radius: 45px;
+    outline-offset: 2px;
+    height: 19px;
+    outline: 2px solid var(--color-primary);
+    width: 85%;
+
+}
+.progress-bar div {
+    height: 19px;
+    border-radius: 45px;
+
+}

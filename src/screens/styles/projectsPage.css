@@ -1,0 +1,82 @@
+.projects-master{
+    min-height: calc( 100vh - 170px);
+    margin-bottom: 80px;
+}
+.projects-master .data-wrapper {
+    margin-top: 40px ;
+}
+ .loader-img {
+    min-height:75px ;
+    max-height:75px ;
+    min-width:75px ;
+    min-width:75px ;
+    margin-top: 70px;
+}
+.projects-master .filter-btn{
+    border: 2px solid var(--color-primary);
+    padding: 7px 25px ;
+    border-radius: 55px;
+    
+}
+.projects-master .active-filter{
+    border-color: transparent;
+    background-color: var(--color-primary);
+    color:white ;
+    outline: 2px solid var(--color-primary) ;
+    outline-offset: 3px;
+
+}
+.projects-master .filter-wrapper{
+    max-width: 550px;
+}
+.project-item{
+    height: 280px;
+    width: 300px;
+    background-size: 100% 100%;
+    border-radius: 7px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    transition:  all 0.3s;
+
+}
+.project-item:hover .bg-card{
+    transform: translateY(7px);
+    
+
+}
+.project-item .bg-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition:  all 0.3s;
+
+}
+.modal-data-master .text-master {
+    flex: 0 1 500px;
+
+}
+.modal-data-master .img-master {
+    flex: 1 1 450px;
+    padding-top: 45px;
+}
+.modal-preview-img{
+    max-width: 300px;
+    object-fit: cover;
+
+}
+.modal-close-btn{
+    margin:25px 30px 10px auto;
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    max-width: 50px;
+
+}
+@media (max-width:450px){
+   .project-item{
+       width: 96%;
+   }
+}
+
+.RMM__body{
+    padding: 0 !important;
+}
